@@ -1,0 +1,28 @@
+.loader {
+  border-radius: 50%;
+  border-top: 6px solid rgb(0, 193, 183);
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Centering the spinner in the middle of the page */
+.spinner-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Ensures that the loader is above other elements */
+}

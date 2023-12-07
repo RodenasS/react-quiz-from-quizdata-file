@@ -1,0 +1,173 @@
+.quizgenderpage {
+  width: 100vw;
+  height: calc(100vh + 227px);
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #e5f9f8;
+  position: relative;
+  z-index: 5;
+  display: flex;
+
+  .cloud-image {
+    position: absolute;
+    padding-top: 5rem;
+    margin-left: 0;
+    height: 10rem;
+    width: auto;
+    z-index: 5;
+  }
+
+  .ellipse {
+    margin: -17rem -20rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80rem;
+    width: 120rem;
+    min-height: 80rem;
+    min-width: 120rem;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .hero {
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+
+    .container {
+      width: 100%;
+      display: flex;
+
+      .left-col {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+        h1 {
+          font-weight: 800;
+          font-size: 2.5rem;
+          color: rgb(17, 24, 39);
+          line-height: 3rem;
+          margin: 0px 0px 1rem;
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 1rem;
+          color: rgb(17, 24, 39);
+          line-height: 1.5rem;
+          letter-spacing: -0.02rem;
+
+        }
+
+        .hero-cta {
+          display: flex;
+          gap: 1em;
+
+          button.primary-cta {
+            border:none;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+            width: fit-content;
+            transition: all 0.2s ease 0s;
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.5rem;
+            letter-spacing: -0.02rem;
+            padding: 0.05rem 3rem;
+            min-height: 3rem;
+            text-decoration: none;
+
+            &.first-btn {
+              color: rgb(255, 255, 255);
+              background: #7373dc;
+              box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+              &:hover {
+                box-shadow: none;
+                color: white;
+              }
+            }
+
+            &.second-btn {
+              color: rgb(255, 255, 255);
+              background: #00c1b7;
+              box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+              &:hover {
+                box-shadow: none;
+                color: white;
+              }
+            }
+
+            &.third-btn {
+              color: #7373dc;
+              background: #ffffff;
+              box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+              &:hover {
+                box-shadow: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .hero-image {
+      flex: 1;
+      align-self: center;
+    }
+  }
+}
+
+footer {
+  z-index: 5;
+  background-color: transparent;
+  padding: 1em 0;
+
+  .footerbackground {
+    margin: auto;
+    width: 70%;
+  }
+
+  .disclaimer, .copyright {
+
+    color: darkgray;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img.navbar-emoji {
+      margin-right: 0.5em;
+      height: 40px;
+      width: auto;
+    }
+
+    .logotext {
+      text-decoration: none;
+      color: black;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

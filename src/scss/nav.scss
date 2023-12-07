@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.07) 0 4px 6px;
+  z-index: 1100;
+  position: relative;
+  flex-wrap: unset;
+
+  .navbar, .hero, footer {
+    width: 60%;
+    margin: 0 auto;
+
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+
+      img.navbar-emoji {
+        margin-right: 0.5em;
+        height: 40px;
+        width: auto;
+      }
+
+      .logotext {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+    .navbar-menu {
+      display: flex;
+      gap: 1.7em;
+
+      a {
+        text-decoration: none;
+        font-size: 0.875rem;
+        color: rgb(17, 24, 39);
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: -0.02rem;
+      }
+      .active-link{
+        color: rgb(4, 172, 163);
+      }
+    }
+  }
+}

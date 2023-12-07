@@ -1,0 +1,32 @@
+.questionsnav {
+
+  .Navbar {
+    max-height: 2.3em;
+    width: 57%;
+    margin: 1em auto;
+  }
+
+  .Navbar-button {
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+  }
+
+  .Navbar-button:hover {
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+  }
+
+  .violet-progress-bar .progress-bar {
+    background-color: #8485d7;
+    height: 4px;
+    transition: var(--bs-progress-bar-transition);
+  }
+
+  .progress {
+    height: unset;
+    transition: var(--bs-progress-bar-transition);
+  }
+}

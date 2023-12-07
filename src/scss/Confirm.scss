@@ -1,0 +1,145 @@
+.Confirm {
+
+  .violet-progress-bar,
+  .page-number-container {
+    display: none !important;
+  }
+
+  .rotateimg180 {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 5em;
+    width: auto;
+    margin-top: 5em;
+    fill: rgb(238, 238, 250);
+    svg {
+      fill: rgb(238, 238, 250);
+    }
+  }
+
+  .Main-Container-Wrapper {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    background: rgb(248, 248, 255);
+    margin: 0;
+    overflow-x: hidden;
+    min-height: calc(100vh - 72px);
+
+    .bottombg-image {
+      position: fixed;
+      opacity: 0.8;
+      z-index: -1;
+      width: 35em;
+      bottom: 0;
+      right: 0;
+    }
+
+    .button {
+      cursor: pointer;
+      outline: none;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      gap: 1rem;
+      width: 100%;
+      -webkit-tap-highlight-color: transparent;
+      border: none;
+      transition: all 0.2s ease 0s;
+      box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 16px;
+      background: rgb(255, 255, 255);
+      text-align: start;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+      color: rgb(55, 65, 81);
+    }
+
+    .button-wrapper {
+      max-width: 800px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .confirm-container {
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      gap: 1rem;
+      z-index: 2;
+      width: 100%;
+      display: flex;
+
+      .hero-image {
+        height: 17rem;
+        width: 17rem;
+        max-width: 100%;
+        margin: auto;
+      }
+
+      .button-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        margin: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 50rem;
+
+
+        .confirm-hero-text{
+          font-weight: 600;
+          font-size: 2rem;
+          color: rgb(17, 24, 39);
+          line-height: 2.5rem;
+        }
+
+        .confirm-header-leading-text{
+          font-weight: 400;
+          font-size: 1rem;
+          color: rgb(55, 65, 81);
+          line-height: 1.5rem;
+          letter-spacing: -0.02rem;
+        }
+
+        .button {
+          width: 100%;
+          max-width: 16rem;
+          margin: 1.5rem auto auto;
+          outline: none;
+          display: flex;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+          border-radius: 0.5rem;
+          -webkit-tap-highlight-color: transparent;
+          border: none;
+          transition: all 0.2s ease 0s;
+          font-size: 1rem;
+          font-weight: 600;
+          line-height: 1.5rem;
+          letter-spacing: -0.02rem;
+          padding: 0.5rem 1.5rem;
+          min-height: 3rem;
+          color: rgb(255, 255, 255);
+          background: rgb(0, 193, 183);
+          box-shadow: rgba(0, 193, 183, 0.24) 0px 16px 32px;
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "category": "stress-anxiety",
+    "type": "single",
+    "question": "What’s your age?",
+    "heroImage": "beans_waving.webp",
+    "options": [
+      "18-21",
+      "22-25",
+      "26-30",
+      "31-35",
+      "36-40",
+      "41-46",
+      "46-50",
+      "51-55",
+      "56-60",
+      "61-65",
+      "66-70",
+      "71+"
+    ],
+    "values": [
+      10,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "“Most of the time I feel”",
+    "heroImage": "bean_dizzy.webp",
+    "options": [
+      "Happy",
+      "Sad",
+      "Depressed",
+      "Anxious",
+      "Motivated",
+      "Lonely",
+      "Indifferent",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "“I notice that I often”",
+    "heroImage": "bean_with_arrows_from_head.webp",
+    "options": [
+      "Overthink and over plan",
+      "Struggle with making decisions",
+      "Feel anxious in social situations",
+      "Go out less than before because “I don't feel in the mood”",
+      "Lack engagement in the activites I used to enjoy",
+      "Feel exhausted and fatigued at the end of the day",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 4,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "Did you frequently experience any of the following problems in the last 2 weeks?",
+    "heroImage": "bean_holding_hands_on_head_with_emoji.webp",
+    "options": [
+      "Panic or anxiety attacks",
+      "Feeling nervous, anxious, or on edge",
+      "Excessive worrying I wasn’t able to control",
+      "Trouble falling asleep due to worries",
+      "Getting irritated or annoyed easily",
+      "Feeling afraid something terrible might happen",
+      "Finding it difficult to relax or enjoy activities",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 5,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "Which statements apply to you when you think about your job?",
+    "heroImage": "bean_next_to_pc_with_moon.webp",
+    "options": [
+      "I feel exhausted with no energy to work",
+      "I notice that I am cynical and pessimistic towards my job",
+      "I don't feel productive at work",
+      "I tend to procrastinate a lot",
+      "I have difficulties focusing and concentrating",
+      "I lack motivation for most tasks",
+      "I often feel stressed white at work",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 6,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "How would you describe your sleep pattern?",
+    "heroImage": "bean_sleeping_under_the_moon.webp",
+    "options": [
+      "I am satisfied with my sleep",
+      "I have difficulties falling asleep",
+      "I lie awake for long periods of time through the night",
+      "I often wake up throughout the night",
+      "I wake up too early",
+      "I wake up not rested",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 7,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "“When I feel emotionally or mentally overwhelmed, I tend to”",
+    "heroImage": "bean_driving_and_yelling.webp",
+    "options": [
+      "Self-harm",
+      "Comfort myself by eating",
+      "Detach myself from others",
+      "Use alcohol or drugs to help me relax",
+      "Sometimes become physically violent",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 8,
+    "category": "stress-anxiety",
+    "type": "multi-checkbox",
+    "question": "Select the physical symptoms that apply to you:",
+    "heroImage": "bean_green_ashamed.webp",
+    "options": [
+      "I tend to get digestive problems",
+      "I feel fatigued",
+      "I noticed some changes in my eating or sleeping patterns",
+      "I have excessive perspiration, muscle pains, or a dry mouth",
+      "I experience some heart-related issues",
+      "I’m getting headaches more often",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 9,
+    "category": "stress-anxiety",
+    "type": "single-image",
+    "question": "When something goes wrong, I tend to think of the worst possible scenario.",
+    "heroImage": "bean_green_coughing.webp",
+    "options": [
+      "Strongly agree",
+      "Somewhat agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 10,
+    "category": "stress-anxiety",
+    "type": "multi-image",
+    "question": "Which of these healthy activities do you perform regularly?",
+    "heroImage": "bean_on_bike.webp",
+    "options": [
+      "Exercise or yoga",
+      "Going for daily walks",
+      "Meditation",
+      "Spending time with a close friend",
+      "Taking time of work",
+      "Playing/walking with my pet",
+      "Other"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]
