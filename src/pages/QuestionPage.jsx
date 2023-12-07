@@ -6,7 +6,6 @@ import SingleChoice from './SingleChoice';
 import SingleImage from './SingleImage';
 import Questionsnav from '../scss/components/questionsnav.jsx';
 import Confirm from './Confirm.jsx';
-import Checkout from './Checkout';
 import { QuizContext } from '../QuizContext';
 import MultipleImage from "./MultipleImage.jsx";
 
@@ -16,7 +15,7 @@ const QuestionPage = () => {
     const [currentQuestion, setCurrentQuestion] = useState({});
     const totalQuestions = quizData.length;
     const currentQuestionNumber = parseInt(questionId, 10);
-    const { answers, setAnswers, sumOfValues, setSumOfValues } = useContext(QuizContext);
+    const { answers, setAnswers } = useContext(QuizContext);
     const progress = (currentQuestionNumber / totalQuestions) * 100;
     const [questionsCompleted, setQuestionsCompleted] = useState(false);
     const [email, setEmail] = useState('');
@@ -90,7 +89,6 @@ const QuestionPage = () => {
         setEmailSubmitted(true);
     };
 
-    // Calculate the sum of all answered questions' values
     const sumOfAnsweredValues = answers.reduce((sum, answer) => {
         const selectedOption = answer.selectedOption;
         if (Array.isArray(selectedOption)) {
@@ -101,7 +99,6 @@ const QuestionPage = () => {
         }
     }, 0);
 
-    // Define the maximum possible value (you can customize this)
     const maxPossibleValue = 100;
 
     return (
@@ -111,7 +108,7 @@ const QuestionPage = () => {
                     email={email}
                     onEmailChange={(e) => setEmail(e.target.value)}
                     onEmailSubmit={handleEmailSubmit}
-                    category={category} // Pass the category as a prop to Confirm
+                    category={category}
                 />
             ) : (
                 <>

@@ -10,7 +10,6 @@ const SingleChoice = ({ question, onAnswer, navigateToNext }) => {
     const [selectedOption, setSelectedOption] = useState('');
     const {answers} = useContext(QuizContext);
     useEffect(() => {
-        // Find the answer for the current question
         const currentAnswer = answers.find(answer => answer.questionId === question.id);
         if (currentAnswer) {
             setSelectedOption(currentAnswer.selectedOption);

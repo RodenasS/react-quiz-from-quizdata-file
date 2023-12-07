@@ -10,11 +10,10 @@ import Timeofwork from '../images/sunimage.webp'
 import Playingwithpet from '../images/petimage.webp'
 import Other from '../images/otherimage.webp'
 import PropTypes from "prop-types";
-import {useNavigate} from "react-router-dom";
 import {QuizContext} from "../QuizContext.jsx";
 
 
-const MultipleImage = ({question, currentQuestionNumber, totalQuestions, onAnswer, navigateToNext, onQuestionsCompleted, currentQuestion}) => {
+const MultipleImage = ({question, onAnswer, navigateToNext, currentQuestion}) => {
     const {answers} = useContext(QuizContext);
     useEffect(() => {
         const existingAnswer = answers.find((a) => a.questionId === currentQuestion.id);
@@ -40,7 +39,6 @@ const MultipleImage = ({question, currentQuestionNumber, totalQuestions, onAnswe
     };
 
     const [selectedValues, setSelectedValues] = useState([]);
-    const navigate = useNavigate();
 
     const handleCheckboxChange = (index) => {
         setSelectedValues(prevValues => {

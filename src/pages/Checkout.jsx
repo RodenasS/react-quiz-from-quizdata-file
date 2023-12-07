@@ -118,12 +118,12 @@ const Checkout = () => {
     const faqs = [
         {
             id: 'faq1',
-            question: 'What is Sensa?',
+            question: 'What is healthy?',
             answer: (
                 <>
-                    <span className="content-span">Sensa is a mobile app designed to help people fight against multiple mental health issues, find their inner peace, and calm their mind.</span>
+                    <span className="content-span">healthy is a mobile app designed to help people fight against multiple mental health issues, find their inner peace, and calm their mind.</span>
                     <span className="content-span">App content is crafted by behavioral psychologists and you can choose to follow the plan for 1, 3, or 6 months, depending on how you feel.</span>
-                    <span className="content-span">You'll be able to access the plan and content through the Sensa mobile app – available on both iOS and Android.</span>
+                    <span className="content-span">You'll be able to access the plan and content through the healthy mobile app – available on both iOS and Android.</span>
                 </>
             ),
         },
@@ -132,7 +132,7 @@ const Checkout = () => {
             question: 'What happens after I order?',
             answer: (
                 <>
-                    <span className="content-span">In order to access the Sensa app, you will need to download it from the App Store or Google Play Store – depending on if you use an iPhone or Android phone.</span>
+                    <span className="content-span">In order to access the healthy app, you will need to download it from the App Store or Google Play Store – depending on if you use an iPhone or Android phone.</span>
                     <span className="content-span">You will receive an email with further instructions within 2 hours – if you can't see it, please check your SPAM folder.</span>
                 </>
             ),
@@ -142,7 +142,7 @@ const Checkout = () => {
             question: 'Is this a one-time payment?',
             answer: (
                 <>
-                    <span className="content-span">Sensa is based on a subscription model. You can choose to subscribe to a 1, 3, or 6-month plan.</span>
+                    <span className="content-span">healthy is based on a subscription model. You can choose to subscribe to a 1, 3, or 6-month plan.</span>
                 </>
             ),
         },
@@ -152,7 +152,7 @@ const Checkout = () => {
             answer: (
                 <>
                     <span className="content-span">If you decide to cancel your subscription, you can do so by visiting the “Manage Subscription” page on our website. You can also drop an email to <a
-                        href="mailto:hello@sensa.health" className="content-colored">hello@sensa.health.</a></span>
+                        href="mailto:hello@healthy.health" className="content-colored">hello@healthy.health.</a></span>
                 </>
             ),
         },
@@ -197,7 +197,7 @@ const Checkout = () => {
                 <div className="navbar">
                     <div className="navbar-logo">
                         <img src={Logo} alt="emoji" className="navbar-emoji"/>
-                        <a className="logotext"><span>sensa.</span>health</a>
+                        <a className="logotext"><span>healthy.</span>health</a>
                     </div>
                     <div className="navbar-menu">
                         <button className="button nav-button">Claim my plan</button>
@@ -316,7 +316,7 @@ const Checkout = () => {
                 <div className="checkout-testimonials-award-banner">
                     <div className="award-card">
                         <img src={nominee} alt="award-nominee" className="award-nominee"></img>
-                        <p>Sensa is proudly nominated for an <span> UCSF Health Hub Digital Health Award – 2022.</span>
+                        <p>healthy is proudly nominated for an <span> UCSF Health Hub Digital Health Award – 2022.</span>
                         </p>
                     </div>
                 </div>
@@ -337,7 +337,7 @@ const Checkout = () => {
                                         <img src={starrating} alt="star-rating" className="star-rating"></img>
                                         <img src={starrating} alt="star-rating" className="star-rating"></img>
                                     </div>
-                                    <p className="review-card-comment">Since starting with Sensa I have felt my overall
+                                    <p className="review-card-comment">Since starting with healthy I have felt my overall
                                         anxiety levels dropping. I feel more confident than I have felt in many, many
                                         years.</p>
                                 </div>
@@ -375,7 +375,7 @@ const Checkout = () => {
                                         <img src={starrating} alt="star-rating" className="star-rating"></img>
                                     </div>
                                     <p className="review-card-comment">You never realize quite how important feeling
-                                        content is – until you stop feeling it. Sensa has taught me how to stay
+                                        content is – until you stop feeling it. healthy has taught me how to stay
                                         positive, no matter what happens. As a result, I feel so much happier in my
                                         everyday life.</p>
                                 </div>
@@ -387,7 +387,7 @@ const Checkout = () => {
                     <div className="library-card">
                         <img src={library} alt="library" className="library"></img>
                         <p>In a study published in the National Library of Medicine, it was determined that using the
-                            Sensa mobile app was related to decreased depression, anxiety, and stress
+                            healthy mobile app was related to decreased depression, anxiety, and stress
                             symptoms.<sup>[1]</sup></p>
                     </div>
                 </div>
@@ -481,7 +481,7 @@ const Checkout = () => {
                             – or being so paralyzed by anxiety that even the smallest of tasks feels unbearable.<br/>
                             It can affect you in many areas, from school, to the workplace, and even your personal life,
                             if left untreated.<br/>
-                            Sensa was designed to work <b>with you</b> on a daily basis – it teaches you how to
+                            healthy was designed to work <b>with you</b> on a daily basis – it teaches you how to
                             effectively manage both stress and anxiety, and helps you learn how to reduce distractions
                             in order to stay on top of things.<br/>
                             We know that admitting to yourself that you need some help can be difficult, but don&apos;t
@@ -496,7 +496,7 @@ const Checkout = () => {
                             <img src={Dainius} alt="doctor-image" className="doctor-image"></img>
                             <div className="checkout-advisor-credentials">
                                 <p className="checkout-advisor-name">Dainius Jakučionis MD</p>
-                                <p className="checkout-advisor-role">The brains behind Sensa</p>
+                                <p className="checkout-advisor-role">The brains behind healthy</p>
                             </div>
                         </div>
                     </div>
@@ -505,14 +505,14 @@ const Checkout = () => {
 
             <div className="comparison-container">
                 <div className="comparison-title">
-                    <h2>If you feel like <span> you&apos;ve done all you can </span> – the Sensa anxiety-relief plan is
+                    <h2>If you feel like <span> you&apos;ve done all you can </span> – the healthy anxiety-relief plan is
                         perfect for you</h2>
                 </div>
                 <div className="comparison-content">
                     <img src={beanchampion} alt="Bean Champion Image" className="comparison-image"></img>
                     <div className="comparison-cards">
                         <div className="card before-card">
-                            <h3>Life before you start using Sensa</h3>
+                            <h3>Life before you start using healthy</h3>
                             <ul>
                                 <li> Constant stress and anxiety</li>
                                 <li>Struggles with focus</li>
@@ -522,7 +522,7 @@ const Checkout = () => {
                             </ul>
                         </div>
                         <div className="card after-card">
-                            <h3>Life after you start using Sensa</h3>
+                            <h3>Life after you start using healthy</h3>
                             <ul>
                                 <li>A calm and relaxed mind</li>
                                 <li>Improved focus and clarity</li>
@@ -601,85 +601,6 @@ const Checkout = () => {
                     </div>
                 </div>
             </div>
-            <div className="checkout-plans">
-                <div className="plans-container">
-                    <h5 className="main-title">Your special offer expires soon!</h5>
-                    <div className="plans-timer-container">
-                        <div className="time-section">
-                            <h2 className="plans-timer-text">{formattedMinutes}</h2>
-                            <p className="plans-timer-unit">minutes</p>
-                        </div>
-                        <h2 className="plans-timer-text">:</h2>
-                        <div className="time-section">
-                            <h2 className="plans-timer-text">{formattedSeconds}</h2>
-                            <p className="plans-timer-unit">seconds</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="plans-cards-container">
-                    <h2 className="main-h">Choose your plan:</h2>
-                    <div className="card-wrapper">
-                        {Object.entries(planDetails).map(([planKey, details]) => (
-                            <div
-                                key={planKey}
-                                className={`card-container ${isActive(planKey) ? 'active' : ''}`}
-                                onClick={() => toggleActivePlan(planKey)} // Card click handler
-                            >
-                                <div className="radio-group">
-                                    <input
-                                        type="radio"
-                                        name="plan"
-                                        value={planKey}
-                                        checked={isActive(planKey)}
-                                        onChange={() => toggleActivePlan(planKey)}
-                                    />
-                                </div>
-                                <div className="plan-group">
-                                    <h5>{details.title}</h5>
-                                    <span>
-                                {details.oldPrice && <span className="red-span">{details.oldPrice}</span>}
-                                        &nbsp;<span>{details.newPrice}</span>
-                            </span>
-                                    <p>{details.billingCycle}</p>
-                                </div>
-                                <div className="pricing-group">
-                                    <p className="primary-p">{details.beforeperDay}</p>
-                                    <h2>{details.perDay}</h2>
-                                    <p className="secondary-p">per day</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-                <div className="checkout-plans-container">
-                    <form action="#" className="checkout-plans-coupon-form" data-gtm-form-interact-id="0">
-                        <div className="coupon-form-outter">
-                            <div className={inputWrapperClass}>
-                                <label htmlFor="coupon" className={labelClass}>Have a coupon code?</label>
-                                <input id="coupon" type="text" maxLength="256" name="coupon"
-                                       className="checkout-plans-input" value={couponCode}
-                                       onChange={handleInputChange}/>
-                            </div>
-                        </div>
-                        <button type="submit" className={buttonClass} disabled={couponCode === ''}>Apply</button>
-                    </form>
-                </div>
-                <div className="bottom-actions-container">
-                    <div className="bottom-terms-agreement-form">
-                        <input type="checkbox" role="checkbox" aria-checked="false" data-state="unchecked" value="on"
-                               className="checkbox"></input>
-                        <label className="terms-agreement-label">By choosing a payment method you agree to the
-                            <a className="terms-agreement-link" href="/terms-of-services/">T&amp;Cs</a>and <a
-                                className="terms-agreement-link" href="/privacy-policy/">Privacy Policy</a></label>
-                    </div>
-                    <button className="button claim-button">Claim my plan</button>
-                    <div className="payment-cards-wrapper">
-                        <p className="payment-cards-paragraph">guaranteed <b>safe</b> checkout</p>
-                        <img src={paymentcards} alt="payment-cards" className="payment-cards"></img>
-                    </div>
-                </div>
-            </div>
             <div className="faq-container">
                 <div className="faq-accordion" data-orientation="vertical">
                     <h3 className="faq-title">People often ask us</h3>
@@ -695,9 +616,7 @@ const Checkout = () => {
                                     >
                                         {question}
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                             data-testid="checkout--stress-anxiety__faq__accordion__item--item-0__header__trigger__icon"
                                              aria-hidden="true" className="sc-bf2c6fb5-2 gA-diVK">
-                                            {/* SVG path goes here */}
                                         </svg>
                                     </button>
                                 </h3>
@@ -715,17 +634,17 @@ const Checkout = () => {
                 <div className="footerbackground">
                     <div className="disclaimer">
                         <p className="footerdisclaimer">Disclaimer: Results may vary due to individual differences. In
-                            addition, mental self-help apps like Sensa are not a replacement for or a form of therapy,
+                            addition, mental self-help apps like healthy are not a replacement for or a form of therapy,
                             nor are they intended to cure, treat, or diagnose medical conditions, including psychiatric
                             conditions. Please consult a qualified health care provider for a medical treatment
                             plan.</p>
                     </div>
                     <div className="navbar-logo">
                         <img src={Logo} alt="emoji" className="navbar-emoji"/>
-                        <a className="logotext"><span>sensa</span>.health</a>
+                        <a className="logotext"><span>healthy</span>.health</a>
                     </div>
                     <div className="copyright">
-                        <p className="copyright">© 2023 Sensa. All rights reserved.</p>
+                        <p className="copyright">© 2023 healthy. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

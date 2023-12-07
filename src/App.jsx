@@ -9,9 +9,6 @@ import Email from "./pages/Email.jsx";
 import GenderPage from "./pages/GenderPage.jsx"
 import quizData from "./data/quizData.json"
 import {QuizProvider} from './QuizContext';
-import About from "./pages/About.jsx";
-import ForEmployers from "./pages/For-Employers.jsx";
-import AppFeatures from "./pages/App-Features.jsx";
 
 const categories = [...new Set(quizData.map((question) => question.category))];
 
@@ -22,9 +19,6 @@ function App() {
             <Router>
                 <Routes>
                     <Route exact path="/" element={<Homepage/>}/>
-                    <Route exact path="/about-us" element={<About/>}/>
-                    <Route exact path="/for-employers" element={<ForEmployers/>}/>
-                    <Route exact path="/app-features" element={<AppFeatures/>}/>
                     <Route path="/:category/quiz/:questionId" element={<QuestionPage/>}/>
                     {categories.map((category) => (
                         <React.Fragment key={category}>

@@ -18,7 +18,7 @@ const questionsnav = ({ currentQuestionNumber, totalQuestions, onBack, progress 
                 <div className="w-100 d-flex justify-content-center align-items-center">
                     <Image src={Logo} className="logo-image" alt="Logo" height="40"/>
                     {' '}
-                    <b>sensa.</b>health
+                    <b>healthy.</b>health
                 </div>
                 <div className="w-100 d-flex justify-content-end">
                     <div className="page-number-container">

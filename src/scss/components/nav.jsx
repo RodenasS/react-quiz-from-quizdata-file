@@ -14,7 +14,7 @@ const nav = () => {
                     <div className="navbar-logo">
                         <img src={Logo} alt="emoji" className="navbar-emoji" />
                         <Link to="/" className="logotext">
-                            <span>sensa.</span>health
+                            <span>healthy.</span>health
                         </Link>
                     </div>
                     <div className="navbar-menu">

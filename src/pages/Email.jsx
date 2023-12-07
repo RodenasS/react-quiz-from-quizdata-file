@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import { Image } from 'react-bootstrap';
 import HeroImage from '../images/bean_with_envelope_next_to_pc.webp';
 import Cloud from '../images/cloudgrey.svg';
@@ -7,22 +7,19 @@ import Questionsnav from '../scss/components/questionsnav.jsx';
 import Logo from '../images/icon-256x256.png';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
-import Loader from "./Loader.jsx";
 
 const Email = ({ category }) => {
     const [email, setEmail] = useState('');
-    const [isValidEmail, setIsValidEmail] = useState(true); // Added state for email validation
+    const [isValidEmail, setIsValidEmail] = useState(true);
     const navigate = useNavigate();
 
     const handleInputChange = (e) => {
         const inputEmail = e.target.value;
         setEmail(inputEmail);
-        // Check if the entered email is in a valid format
         const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
         setIsValidEmail(emailPattern.test(inputEmail));
     };
 
-    // Determine the class names dynamically
     const buttonClass = isValidEmail
         ? 'email-button button active'
         : 'email-button button disabled';
@@ -77,7 +74,7 @@ const Email = ({ category }) => {
                         )}
                         <p className="email-input-terms">
                             By providing your email, you consent to newsletters and marketing
-                            emails from Sensa.health as described in our T&Cs and Privacy
+                            emails from healthy.health as described in our T&Cs and Privacy
                             Policy. We respect your privacy and do not tolerate spam. We will
                             never share or sell your information to third parties.
                         </p>
@@ -98,7 +95,7 @@ const Email = ({ category }) => {
                     <div className="disclaimer">
                         <p className="footerdisclaimer">
                             Disclaimer: Results may vary due to individual differences. In
-                            addition, mental self-help apps like Sensa are not a replacement for
+                            addition, mental self-help apps like healthy are not a replacement for
                             or a form of therapy, nor are they intended to cure, treat, or
                             diagnose medical conditions, including psychiatric conditions. Please
                             consult a qualified health care provider for a medical treatment
@@ -108,11 +105,11 @@ const Email = ({ category }) => {
                     <div className="navbar-logo">
                         <img src={Logo} alt="emoji" className="navbar-emoji" />
                         <a className="logotext">
-                            <span>sensa</span>.health
+                            <span>healthy</span>.health
                         </a>
                     </div>
                     <div className="copyright">
-                        <p className="copyright">© 2023 Sensa. All rights reserved.</p>
+                        <p className="copyright">© 2023 healthy. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Navigation from '../scss/components/nav'
 import {Button, Image} from "react-bootstrap";
 import PropTypes from "prop-types";
@@ -26,7 +26,6 @@ import instagram from "../images/instagram.svg";
 import facebook from "../images/facebook.svg";
 import youtube from "../images/youtube.svg";
 import pinterest from "../images/pinterest.svg";
-import Loader from "./Loader.jsx";
 
 const LandingButton = ({href, imageSrc, text}) => {
     return (
@@ -108,7 +107,7 @@ const Homepage = () => {
                     className="position-absolute top-20 w-25 rotateimg180"
                 />
                 <div className="landing_intro_title_wrap">
-                    <h1 className="landing_intro_hero_text"> Your mental health is important - Sensa gives you the tools
+                    <h1 className="landing_intro_hero_text"> Your mental health is important - healthy gives you the tools
                         to help you improve it</h1>
                     <img src={heroimage} alt="emoji" className="landing_intro_hero_image"/>
                 </div>
@@ -134,9 +133,9 @@ const Homepage = () => {
 
             <div className="landing_facts">
                 <div className="facts_why_us_wrapper">
-                    <h2 className="facts_title"> Why Sensa? </h2>
-                    <p className="facts-description">Sensa is designed to cater to a wide range of users, suffering from
-                        many forms of mental health issues. Here's some of the ways it can help you.</p>
+                    <h2 className="facts_title"> Why healthy? </h2>
+                    <p className="facts-description">healthy is designed to cater to a wide range of users, suffering from
+                        many forms of mental health issues. Here is some of the ways it can help you.</p>
                 </div>
                 <div className="facts_cards_container">
                     <div className="card-container">
@@ -158,7 +157,7 @@ const Homepage = () => {
 
             <div className="clients-review-container">
                 <h2 className="review_title"> Don’t just take our word for it </h2>
-                <p className="review-description">Hear how Sensa has improved the lives of these users:</p>
+                <p className="review-description">Hear how healthy has improved the lives of these users:</p>
 
                 <div className="swiper-wrapper">
                     <div className="swiper-slide swiper-slide-visible swiper-slide-active">
@@ -173,7 +172,7 @@ const Homepage = () => {
                                     <img src={starrating} alt="star-rating" className="star-rating"></img>
                                     <img src={starrating} alt="star-rating" className="star-rating"></img>
                                 </div>
-                                <p className="review-card-comment">Sensa has totally turned my life around. I was
+                                <p className="review-card-comment">healthy has totally turned my life around. I was
                                     struggling so much with procrastination and just generalized anxiety, but the daily
                                     guidance and lessons have allowed me to really focus on myself and feel so much
                                     better as a result.</p>
@@ -195,7 +194,7 @@ const Homepage = () => {
                                 <p className="review-card-comment">I was so used to being absolutely exhausted. Working
                                     12-hour shifts and feeling tired and drained was just part of my routine, but I
                                     didn’t realize how much of these things were symptoms of burnout until I tried
-                                    Sensa. My routine hasn’t changed, but the way I view it has, and the mind is a
+                                    healthy. My routine hasn’t changed, but the way I view it has, and the mind is a
                                     powerful thing!</p>
                             </div>
                         </div>
@@ -214,7 +213,7 @@ const Homepage = () => {
                                 </div>
                                 <p className="review-card-comment">I always viewed my ADHD as just a part of my life,
                                     until it started causing me serious issues with my performance at work. Through
-                                    Sensa, I learned to plan and manage my daily tasks effectively, and without causing
+                                    healthy, I learned to plan and manage my daily tasks effectively, and without causing
                                     me to feel overwhelmed.</p>
                             </div>
                         </div>
@@ -232,20 +231,20 @@ const Homepage = () => {
                             <p className="description_paragraph">Did you know that 76% of <b>Americans encountered
                                 stress or anxiety</b> issues in the past year alone?<br/><br/>Unfortunately, the
                                 seriousness of conditions like stress, anxiety, and depression is often understated –
-                                these issues can manifest into physical symptoms if not treated properly.<br/><br/>Sensa
+                                these issues can manifest into physical symptoms if not treated properly.<br/><br/>healthy
                                 is built to help you through whatever mental health issues affect you most. From burnout
                                 to procrastination, ADHD to anxiety, and everything in between.</p>
                         </div>
                     </div>
                     <div className="landing_explanations_container">
                         <div className="landing_explanations_description">
-                            <h2 className="description_hero"> What is Sensa?</h2>
-                            <p className="description_paragraph">Sensa is a mobile application designed to work as your
+                            <h2 className="description_hero"> What is healthy?</h2>
+                            <p className="description_paragraph">healthy is a mobile application designed to work as your
                                 complete guide to improved mental health. Built upon the principles of Cognitive
-                                Behavioral Therapy (CBT), Sensa utilizes developed techniques to fight against a
+                                Behavioral Therapy (CBT), healthy utilizes developed techniques to fight against a
                                 plethora of mental health issues, including anxiety, stress, depression,
                                 procrastination, ADHD, Self-esteem, and burnout.&nbsp;<br/><br/>This list is constantly
-                                growing, however; and Sensa is always looking for new ways to help users no matter what
+                                growing, however; and healthy is always looking for new ways to help users no matter what
                                 they suffer from.</p>
                         </div>
                         <img src={appscreens} alt="" className="explanations_container_image"/>
@@ -272,12 +271,12 @@ const Homepage = () => {
                             <div className="navbar-logo">
                                 <img src={Logo} alt="emoji" className="navbar-emoji"/>
                                 <a className="logotext">
-                                    <span>sensa</span>.health
+                                    <span>healthy</span>.health
                                 </a>
                             </div>
                             <p className="footerdisclaimer">
                                 Disclaimer: Results may vary due to individual differences. In
-                                addition, mental self-help apps like Sensa are not a replacement for
+                                addition, mental self-help apps like healthy are not a replacement for
                                 or a form of therapy, nor are they intended to cure, treat, or
                                 diagnose medical conditions, including psychiatric conditions. Please
                                 consult a qualified health care provider for a medical treatment
@@ -293,19 +292,19 @@ const Homepage = () => {
                                 <a className="navigation_link" href="/help">Help center</a>
                             </div>
                             <div className="media-links">
-                                <a href="https://www.instagram.com/mysensa.health/" className="media-link"> <img
+                                <a href="https://www.instagram.com/" className="media-link"> <img
                                     src={instagram} alt="" className="social-emoji"/> </a>
-                                <a href="https://www.facebook.com/mysensa.health/" className="media-link"> <img
+                                <a href="https://www.facebook.com/" className="media-link"> <img
                                     src={facebook} alt="" className="social-emoji"/> </a>
-                                <a href="https://www.youtube.com/mysensa.health/" className="media-link"> <img
+                                <a href="https://www.youtube.com/" className="media-link"> <img
                                     src={youtube} alt="" className="social-emoji"/> </a>
-                                <a href="https://www.pinterest.com/mysensa.health/" className="media-link"> <img
+                                <a href="https://www.pinterest.com/" className="media-link"> <img
                                     src={pinterest} alt="" className="social-emoji"/> </a>
                             </div>
                         </div>
                     </div>
                     <div className="copyright">
-                        <p className="copyright">© 2023 Sensa. All rights reserved.</p>
+                        <p className="copyright">© 2023 healthy. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

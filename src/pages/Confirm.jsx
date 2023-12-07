@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { Container, Image } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom'; // Importuojame useNavigate
+import { useNavigate } from 'react-router-dom';
 import HeroImage from '../images/finish_line_bean.png';
 import Cloud from '../images/cloudteal.svg';
 import CloudGrey from '../images/cloudgrey.svg';
@@ -9,12 +9,11 @@ import Questionsnav from "../scss/components/questionsnav.jsx";
 import PropTypes from 'prop-types';
 import Loader from "./Loader.jsx";
 
-const Confirm = ({ category }) => { // Use destructuring to access the category prop
-    const navigate = useNavigate(); // Gauname navigate funkciją iš react-router-dom
+const Confirm = ({ category }) => {
+    const navigate = useNavigate();
 
     const handleBack = () => {
-        // Įvykdome atgalinį veiksmą paspaudus "BACK"
-        navigate(-1); // Naviguojame į ankstesnį puslapį
+        navigate(-1);
     };
 
     const navigateToCalculate = () => {
@@ -50,7 +49,7 @@ const Confirm = ({ category }) => { // Use destructuring to access the category 
                     <div className="button-wrapper">
                         <h2 className="confirm-hero-text">Ready to see your plan?</h2>
                         <p className="confirm-header-leading-text">Taking the time to focus on
-                            your problems and work on them takes a lot of effort – that’s why we designed Sensa to work from
+                            your problems and work on them takes a lot of effort – that’s why we designed healthy to work from
                             just 5 minutes of your time dedicated to it each day!</p>
                         <p className="confirm-header-leading-text">Small steps lead to big
                             changes.</p>

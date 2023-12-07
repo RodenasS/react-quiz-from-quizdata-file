@@ -84,7 +84,7 @@
       all:unset;
       position: relative;
       display: flex;
-      flex: 0 0 calc(25% - 1rem); /* Each button takes up 25% of the container width minus the gap */
+      flex: 0 0 calc(25% - 1rem);
       flex-direction: column;
       -webkit-box-pack: center;
       justify-content: center;
@@ -101,7 +101,7 @@
       max-width: 10rem;
 
       &:hover {
-        background-color: #e9ecef; // Tai yra Bootstrap spalva, bet galite pasirinkti kitą
+        background-color: #e9ecef;
       }
 
       &.active {
